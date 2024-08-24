@@ -1,4 +1,4 @@
-body {
+body { /* Formatação do body */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@ body {
     color: black;
 }
 
-header {
+header { /* Formatação do cabeçalho */
     background-color: black;
     color: white;
     padding: 20px;
@@ -53,7 +53,7 @@ main {
     height: auto;      /* Mantém a proporção da imagem */
 }
 
-h1, h2, h3 {
+h1, h2, h3 { /* Formatação dos titulos  */
     margin-bottom: 10px;
 }
 
@@ -131,7 +131,7 @@ p {
     background-color: #0056b3; /* Azul escuro ao passar o mouse */
 }
 
-footer {
+footer { /* Formatação do rodapé */
     background-color: black;
     color: white;
     text-align: center;
