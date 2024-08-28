@@ -33,3 +33,25 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #ddd;
 }
+
+a {
+    color: blue; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estilo para links quando o cursor está sobre eles (hover) */
+a:hover {
+    color: darkblue; /* Muda a cor quando o link é hover */
+    text-decoration: underline; /* Adiciona sublinhado quando o link é hover */
+}
+
+/* Estilo para links visitados */
+a:visited {
+    color: purple; /* Muda a cor dos links que já foram visitados */
+}
+
+ /* Estilo para links quando clicados (ativos) */
+ a:active {
+     color: red; /* Cor do link quando ele é clicado */
+ }
